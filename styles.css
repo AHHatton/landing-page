@@ -2,16 +2,32 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header, .hero {
     background: #1F2937;
     color: #F9FAF8;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;  
+    padding: 50px; 
+    gap: 20px;
+    flex: auto;
 }
 
 .hero.title {
     size: 48px;
     font-weight: 900;
+}
+
+.hero-image {
+    width: 400px;
+    flex-grow: 3;
 }
 
 ul {
@@ -20,6 +36,20 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+img {
+    width: 200px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -40,9 +70,14 @@ a {
 }
 
 
+
+
 footer {
     height: 50px;
     background: #1F2937;
-    text-align: center;
+ 
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
