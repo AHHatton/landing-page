@@ -4,6 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 .header, .hero {
@@ -15,6 +16,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    
 }
 
 ul {
@@ -36,6 +38,7 @@ a {
     padding: 50px; 
     gap: 20px;
     flex: auto;
+    text-align: left;
 }
 
 .hero.title {
@@ -45,22 +48,24 @@ a {
 
 .hero-image {
     width: 400px;
-    flex-grow: 3;
+    
 }
-
-h2 {
-    text-align: center;
-}
-
 
 img {
-    width: 200px;
+    width: 150px;
+}
+
+.random {
+    margin-top: 50px;
 }
 
 .blocks {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-top: 0px;
+    gap: 40px;
 }
 
 .block {
@@ -72,18 +77,39 @@ img {
     background: #e5e7eb;
     size: 36px;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+    padding: 100px;
 }
 
+.signature {
+    text-align: right;
+}
 
 .sign-up {
     background-color: #3882F6;
+    color: white;
+    padding: 8px 16px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
 
 .cta {
     background-color: #3882F6;
+    color: white;
+    text-align: left;
+    margin:50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
 }
 
+h2, p {
+    margin: 0px;
+    padding: 0px;
+}
 
 
 
