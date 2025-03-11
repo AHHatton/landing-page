@@ -9,8 +9,26 @@ body {
 .header, .hero {
     background: #1F2937;
     color: #F9FAF8;
-    
+    padding: 50px; 
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 .hero {
     display: flex;
@@ -30,14 +48,6 @@ body {
     flex-grow: 3;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 h2 {
     text-align: center;
 }
@@ -50,6 +60,11 @@ img {
 .blocks {
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+
+.block {
+    max-width: 200px;
 }
 
 
